@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+
+
+/*
+*
+*	Author:
+*
+*		Zabludovskiy Grigoriy
+*
+*		e-mail: z.grigoriy@inbox.ru
+*
+*		skype: zabludovskyy.grigoriy
+*
+*		https://ua.linkedin.com/in/grigoriyz
+*
+*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
+
+
+html {
+	height: 100%;
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f0f0f0;
+	background: #f0f0f0 url("gray_bg.jpg") center/cover no-repeat padding-box padding-box scroll;
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 116px;
+}
+
+header {
+	background-color: #3b3a30;
+	padding: 20px 10px;
+	overflow: auto;
+	position: relative;
+}
+
+header h2 {
+font-family: "Montserrat", sans-serif;
+	float: left;
+	margin: 0;
+	font-size: 1.6em;
+	letter-spacing: 2px;
+}
+
+header a:link, header a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.linkedin {
+	float: right;
+}
+
+span.victory {
+	color: #fff;
+	font-size: 2.2em;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -17px;
+}
+
+span.victory:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+footer {
+	background-color: #3b3a30;
+	padding: 50px 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	/* font-family: "Montserrat", sans-serif; */
+	letter-spacing: 2px;
+}
+
+div.container {
+	margin-top: 50px;
+	position: relative;
+}
+
+div.panel {
+	margin-bottom: 50px;
+	box-shadow: 0 0 2px 8px #3b3a30;
+	border: 12px solid #3b3a30;
+	border-right: 60px solid #3b3a30;
+	position: relative;
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	height: auto;
+	overflow: hidden;
+}
+
+span.panel-heading_caption {
+	display: block;
+	font-size: 1.2em;
+}
+
+button.btn {
+	border-radius: 50%;
+	color: #ccc;
+	background-color: #474747;
+	border-color: #ccc;
+	border-width: 2px;
+	outline: none !important;
+}
+
+button#reset_btn {
+	padding: 9px 14.5px;
+}
+
+button#compare_btn {
+	font-size: 19px;
+	padding: 5.5px 13px;
+}
+
+div.btn_block {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	margin-top: -48px;
+}
+
+table#result_table {
+	margin-bottom: 0;
+	background-color: #fff;
+}
+
+table#result_table td.no_data {
+	font-size: 80%;
+	font-style: italic;
+	color: #B7B7B7;
+	text-align: center;
+}
